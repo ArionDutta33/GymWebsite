@@ -1,26 +1,25 @@
 let t = gsap.timeline();
-t.from(".nav .logo", {
+t.from(".navbar .logo", {
     y: -100,
     duration: .8
 })
-t.from(".header #one", {
+t.from(".pg1-wrap .one", {
+    x: -200,
     opacity: 0,
-    x: -100,
-
-    duration: .6
+    duration: .7
 })
-t.from(".header #two", {
-    y: -100,
+t.from(".pg1-wrap .two", {
+    y: -200,
     opacity: 0,
-    duration: .6
+    duration: .7
 })
-t.from(".header #three", {
-    x: 100,
+t.from(".pg1-wrap .three", {
+    x: 200,
     opacity: 0,
-    duration: .6
+    duration: .7
 })
-t.from(".main .main-btn", {
+t.from(".pg1-btn", {
+    y: -20,
     opacity: 0,
-    scale: 1.1,
-    duration: .8
+    duration: .7
 })
