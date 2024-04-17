@@ -155,16 +155,30 @@
      height: 20vw;
      border-radius: .4vw;
      position: relative;
+     z-index: 1;
+     transition: all .2s linear;
  }
 
- #img2 {
+ #img1:hover {
+     transform: translateY(2);
+
+ }
+
+ /* #img2 {
      height: 28vw;
      position: relative;
-     top: 10vw;
-     right: 12vw;
+     top: 30vw;
+     left: -10vw;
+     border-radius: .6vw;
+     z-index: 2;
 
- }
+ } */
 
  #img3 {
-     height: 20vw;
+     height: 26vw;
+     position: relative;
+     top: 10vw;
+     left: 12vw;
+     border-radius: .5vw;
+     z-index: 3;
  }
