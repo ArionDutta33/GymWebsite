@@ -78,7 +78,8 @@ let t3 = gsap.timeline({
     scrollTrigger: {
         trigger: ".page3", // Ensure the correct trigger element is specified
         scroller: "body",
-        markers: true
+        start: "top 10%",
+        // markers: true
     }
 });
 
