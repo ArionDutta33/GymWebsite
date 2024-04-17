@@ -110,7 +110,6 @@
  }
 
  .pg2-left {
-     background: red;
      display: flex;
      align-items: center;
      justify-content: center;
@@ -119,7 +118,6 @@
 
  .pg2-wrap {
      /* width: 70%; */
-     background: green;
      display: flex;
      flex-direction: column;
      padding: 3vw 5vw;
@@ -150,5 +148,23 @@
      font-weight: 900;
      line-height: 1.23vw;
      margin-bottom: .9vw;
-     color: black;
+     color: #ffffff;
+ }
+
+ #img1 {
+     height: 20vw;
+     border-radius: .4vw;
+     position: relative;
+ }
+
+ #img2 {
+     height: 28vw;
+     position: relative;
+     top: 10vw;
+     right: 12vw;
+
+ }
+
+ #img3 {
+     height: 20vw;
  }
