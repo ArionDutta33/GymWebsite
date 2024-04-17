@@ -22,6 +22,5 @@ t.from(".header #three", {
 t.from(".main .main-btn", {
     opacity: 0,
     scale: 1.1,
-    rotate: 360,
     duration: .8
 })
