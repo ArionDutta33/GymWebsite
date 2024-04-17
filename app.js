@@ -43,7 +43,7 @@ const t2 = gsap.timeline({
         start: "top 0%",
         end: "top -100%",
         scrub: true,
-        markers: true
+        // markers: true
     }
 });
 t2.from(".pg2-wrap h1", {
@@ -74,7 +74,20 @@ t2.from(".pg2-right #img3", {
 
 const check = document.querySelector(".pg2-right #img1")
 console.log(check)
+let t3 = gsap.timeline({
+    scrollTrigger: {
+        trigger: ".page3", // Ensure the correct trigger element is specified
+        scroller: "body",
+        markers: true
+    }
+});
 
+t3.from(".page3 .header-one, .page3 .header-two, .page3 .header-three", {
+    y: 100,
+    opacity: 0,
+    stagger: 0.3, // Adjust stagger value as needed
+    duration: 0.7
+});
 
 
 // t.from(".pg2-wrap h1", {
