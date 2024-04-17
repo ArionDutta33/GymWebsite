@@ -186,5 +186,57 @@
  .page3 {
      height: 100%;
      width: 100%;
+     background: #93d7fc;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     gap: 2vw;
+ }
+
+ .pg3-header {
+     font-family: "Anton", sans-serif;
+     font-weight: 500;
+     font-style: normal;
      background: red;
+     font-size: 4vw;
+     color: yellow;
+     text-transform: uppercase;
+     font-style: italic;
+ }
+
+ .testimonials {
+     background: rgb(0, 0, 0);
+ }
+
+ .card {
+     background: yellow;
+     height: 20vw;
+     width: 20vw;
+     border-radius: .5vw;
+ }
+
+ .user {
+     height: 10vw;
+     width: 100%;
+ }
+
+ .user img {
+     height: 100%;
+     width: 100%;
+     object-fit: cover;
+     object-position: center;
+ }
+
+ .review {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     gap: 2vw;
+     padding: 1vw 2vw;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 500;
+     line-height: 1.23vw;
+
  }
