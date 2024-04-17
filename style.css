@@ -136,4 +136,19 @@
      font-style: italic;
  }
 
- .description {}
+ .description {
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-weight: 500;
+     line-height: 1.23vw;
+     margin-bottom: .9vw;
+     color: white;
+ }
+
+ .description+a {
+     text-decoration: underline;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-weight: 900;
+     line-height: 1.23vw;
+     margin-bottom: .9vw;
+     color: black;
+ }
