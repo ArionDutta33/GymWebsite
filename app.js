@@ -30,3 +30,16 @@ t.from(".page1 .scroll", {
     yoyo: true,
     duration: .5,
 })
+// *page 2 Animation
+t.from(".pg2-wrap h1", {
+    x: -100,
+    opacity: 0,
+    duration: 1,
+    scrollTrigger: {
+        trigger: ".pg2-wrap h1",
+        scroller: "body",
+        start: "top 20%",
+        markers: true
+
+    }
+})
