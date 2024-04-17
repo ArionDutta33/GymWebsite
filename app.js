@@ -23,3 +23,10 @@ t.from(".pg1-btn", {
     opacity: 0,
     duration: .7
 })
+t.from(".page1 .scroll", {
+    opacity: 0,
+    y: -20,
+    repeat: -1,
+    yoyo: true,
+    duration: .5,
+})
