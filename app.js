@@ -42,7 +42,7 @@ const t2 = gsap.timeline({
         pin: ".page2",
         start: "top 0%",
         end: "top -100%",
-        scrub: true,
+        scrub: 2,
         // markers: true
     }
 });
