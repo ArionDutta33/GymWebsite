@@ -41,8 +41,8 @@ const t2 = gsap.timeline({
         scroller: "body",
         pin: ".page2",
         start: "top 0%",
-        end: "top -200%",
-        scrub: 2,
+        end: "top -100%",
+        scrub: true,
         markers: true
     }
 });
