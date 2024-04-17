@@ -156,7 +156,7 @@
      border-radius: .4vw;
      position: relative;
      /* z-index: 1; */
-     transition: all .2s linear;
+     transition: transform .2s linear;
  }
 
  /* #img1:hover {
@@ -216,17 +216,20 @@
      height: 20vw;
      width: 20vw;
      border-radius: .5vw;
+     transition: transform .5s linear;
+     transform-origin: center;
  }
 
- /* .card:hover {
-     
+ .card:hover {
 
-     transform: translateX(2);
- } */
+
+     transform: rotate(7deg);
+ }
 
  .user {
      height: 10vw;
      width: 100%;
+     overflow: hidden;
  }
 
  .user img {
@@ -236,6 +239,11 @@
      object-position: center;
      border-top-right-radius: .5vw;
      border-top-left-radius: .5vw;
+     transition: transform .1s linear;
+ }
+
+ .user img:hover {
+     transform: scale(1.1);
  }
 
  .review {
